@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SoundFFT"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="540" Width="960"
+        AllowsTransparency="True"
+        Background="#80000024"
+        WindowStyle="none"
+        ResizeMode="CanResizeWithGrip"
+        >
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="Exit" Click="Quit_Clicked"/>
+        </ContextMenu>
+    </Window.ContextMenu>
+    <Grid Name="grid"/>
 </Window>
